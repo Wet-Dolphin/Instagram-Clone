@@ -1,0 +1,104 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    border: 6px solid black;
+    border-radius: 10px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: 2px solid lightgrey;
+}
+
+#oldagram-logo {
+    height: 60px;
+    width: 150px;
+}
+
+.circle{
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+.account-heading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding: 30px 10px 10px 10px;
+    
+}
+
+.account-name,
+.account-location{
+    margin: 0;
+    margin-left: 10px;
+}
+
+.account-image {
+    width: 100%;
+}
+
+.action-icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+#heart,
+#comment,
+#dm{
+    height: 35px;
+    width: 35px;
+    padding: 10px 5px 0 10px;
+}
+
+#heart:hover,
+#comment:hover,
+#dm:hover{
+    background-size: cover;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+#heart:focus,
+#comment:focus,
+#dm:focus{
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+.like-count{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 0 10px;
+    font-weight: 700;
+    margin: 0;
+    
+}
+
+.comments-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+#commenting-account{
+    font-weight: 800;
+}
+
